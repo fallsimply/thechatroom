@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d49b76084a0a31047bab1ba42c0b8670, type: 3}
+  m_Name: A1 Intro
+  m_EditorClassIdentifier: 
+  storyText: "While waiting for your order at a coffee shop, you stumble upon a password
+    protect irc chatrroom.\r\nWhat do you do\r\n\n1. Ask about the staff about the
+    chatroom\n2.Try to get access"
+  nextStates:
+  - {fileID: 11400000, guid: d667aeb41f4dac54b88cb1b93959c4b6, type: 2}
+  - {fileID: 11400000, guid: 9987b79d7abd3324cb035f517e158cc5, type: 2}
